@@ -1,6 +1,6 @@
 # 🏡 EcoHeaven-Realty
 
-![EcoHeaven Screenshot](https://github.com/yogesh-123231/EcoHeaven-Realty/blob/main/public/Images/Screenshot.png)
+![EcoHeaven Screenshot]((https://github.com/yogesh-123231/EcoHeaven-Realty/blob/main/public/Image/screenshot.png))
 
 **EcoHeaven-Realty** is a modern, eco-friendly real estate website built with **React**, **Tailwind CSS**, and **Vite**. It provides a visually appealing and fast-loading platform to explore sustainable property listings. With **Web3Forms** for contact functionality and **Framer Motion** for smooth animations, the site offers both style and substance.
 
