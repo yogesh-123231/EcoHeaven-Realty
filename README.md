@@ -7,11 +7,13 @@ EcoHeaven Realty is a modern, eco-friendly real estate website built using **Rea
 
 ---
 
+
 ## 🚀 Live Demo
 
 👉 [Click here to view the live site](https://ecoheaven-reality.netlify.app)
 
 ---
+
 
 ## 🛠️ Tech Stack
 
@@ -74,6 +76,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to see it li
 
 ---
 
+
 ## 📬 Contact Form Setup (Web3Forms)
 
 * The contact form is handled via [Web3Forms](https://web3forms.com/)
@@ -81,11 +84,13 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to see it li
 
 ---
 
+
 ## 📄 License
 
 This project is open-source and available under the **MIT License**.
 
 ---
+
 
 ## 👤 Author
 
@@ -94,9 +99,9 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
+
 > 🌍 *EcoHeaven Realty brings together nature and technology to create a clean, fast, and functional real estate experience.*
 
-````
 
----
+
 
