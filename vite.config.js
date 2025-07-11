@@ -8,11 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
    ],
-     build: {
-    rollupOptions: {
-      external: ['react-icons/fi']
-    }
-  }
-
 })
 
