@@ -1,107 +1,144 @@
-## 📸 Project Preview
-
-![EcoHeaven Screenshot](https://raw.githubusercontent.com/yogesh-123231/EcoHeaven-Realty/main/public/Image/screenshot.png)
 
 
-EcoHeaven Realty is a modern, eco-friendly real estate website built using **React**, **Vite**, and **Tailwind CSS**. It features beautiful animations, a responsive design, and a functional contact form — all deployed seamlessly on Netlify.
 
----
+<h1 align="center">🌿 EcoHeaven Realty</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Badge" height="28" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Vite-6.3.5-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite Badge" height="28" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/TailwindCSS-4.1.8-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS Badge" height="28" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/FramerMotion-6.6.2-FF0080?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion Badge" height="28" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Web3Forms-Form%20Handling-blue?style=for-the-badge&logo=web3forms&logoColor=white" alt="Web3Forms Badge" height="28" style="margin: 4px;">
+  <img src="https://img.shields.io/badge/Netlify-Deploy-success?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify Badge" height="28" style="margin: 4px;">
+</p>
 
-
-## 🚀 Live Demo
-
-👉 [Click here to view the live site](https://ecoheaven-reality.netlify.app)
-
----
-
-
-## 🛠️ Tech Stack
-
-- ⚛️ **React** – Component-based UI
-- ⚡ **Vite** – Fast build tool for modern web apps
-- 🎨 **Tailwind CSS** – Utility-first CSS framework
-- 🎬 **Framer Motion** – Smooth animations and transitions
-- 📬 **Web3Forms** – Contact form handling without backend
-- 🌐 **Netlify** – Hosting and deployment
+[**🔗 Live Demo**](https://ecoheaven-reality.netlify.app) • Expect seamless scrolling, vibrant animations, and a smooth experience.
 
 ---
 
-## ✨ Features
-
-- ✅ Responsive design for mobile, tablet, and desktop
-- ✅ Beautiful scroll and hover animations with Framer Motion
-- ✅ Eco-themed UI with clean layout
-- ✅ Functional contact form powered by Web3Forms
-- ✅ Optimized for performance using Vite
+## 💡 Overview
+EcoHeaven Realty is a sleek, eco-themed real estate landing page built directly from a **Figma design** crafted by Victor Jimoh. It demonstrates in-depth front-end skills using React, utility-first Tailwind CSS, and polished animations via Framer Motion—all wrapped up in a fast, Vite-powered app deployed on Netlify.
 
 ---
 
-## 📂 Folder Structure
+## 🛠 Core Features
 
+- 🖼️ **Figma-to-Code Precision**  
+  Faithful recreation of visual design using pixel-perfect layouts and modular components.
+
+- 📐 **Responsive & Retina-ready**  
+  Intuitive experience across mobile, tablet, and desktop with crisp visuals.
+
+- ✅ **Framer Motion Animations**  
+  Smooth reveal and scroll-triggered effects that enhance user engagement.
+
+- 📬 **Form Integration with Web3Forms**  
+  Functional contact form (no back-end) — handles submissions cleanly with email notifications.
+
+- ⚡ **Fast Load & Smooth UX**  
+  Powered by Vite for blazing-fast builds and Netlify for reliable, performant deployment.
+
+---
+
+## 🗂 Tech Stack
+
+| Layer          | Tools & Frameworks                        |
+|----------------|-------------------------------------------|
+| **Front-end**  | React, Tailwind CSS                       |
+| **Build**      | Vite                                      |
+| **Animation**  | Framer Motion                             |
+| **Forms**      | Web3Forms (no back-end required)          |
+| **Hosting**    | Netlify                                   |
+
+---
+
+## 📁 Project Structure
 ```
 
-EcoHeaven-Realty/
-├── public/             # Static assets
-├── src/
-│   ├── assets/         # Images and media
-│   ├── components/     # Reusable React components
-│   ├── App.jsx         # Main app component
-│   └── main.jsx        # Entry point
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
+/src
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Features.jsx
+│   ├── ContactForm.jsx
+│   └── Footer.jsx
+├── App.jsx         # Root with scroll handlers
+├── main.jsx        # Entry point
+└── index.css       # Base + Tailwind styles
 
 ````
 
 ---
 
-## 🧑‍💻 Getting Started
-
-Follow these steps to run the project locally:
+## ⚙ Getting Started
+To run this project locally:
 
 ```bash
-# Clone the repository
-git clone https://github.com/yogesh-123231/EcoHeaven-Realty.git
-cd EcoHeaven-Realty
-
-# Install dependencies
+git clone https://github.com/your-username/ecoheaven-realty.git
+cd ecoheaven-realty
 npm install
-
-# Run development server
 npm run dev
 ````
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to see it live.
+View it at [http://localhost:5173](http://localhost:5173). To deploy, simply connect your repo to Netlify – it detects the Vite setup automatically.
 
 ---
 
+## 📸 Screenshots
 
-## 📬 Contact Form Setup (Web3Forms)
+<!-- Replace with your actual screenshot images-->
 
-* The contact form is handled via [Web3Forms](https://web3forms.com/)
-* Replace the access key in the form with your own to enable form submissions.
-
----
-
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
+| Intro View                                       | Features Showcase                                    | Contact Form                                     |
+| ------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------ |
+| ![Hero section](https://i.imgur.com/XXXXXXX.png) | ![Features section](https://i.imgur.com/YYYYYYY.png) | ![Contact form](https://i.imgur.com/ZZZZZZZ.png) |
 
 ---
 
+## 🎯 Why This Project Matters
 
-## 👤 Author
-
-* 📧 Email: [yogeshdumane987@gmail.com](mailto:yogeshdumane987@gmail.com)
-* 💼 LinkedIn: [in/yogeshdumane](https://www.linkedin.com/in/yogeshdumane)
+* **Hands-on with Figma flow** → Boosts front-end precision
+* **Motion-driven UX** → Engages users with polished feedback
+* **Form without back-end** → Streamlined integration for landing pages
+* **Clean modular code** → Easy to scale replicate for future builds
 
 ---
 
+## 📬 Connect and Collaborate
 
-> 🌍 *EcoHeaven Realty brings together nature and technology to create a clean, fast, and functional real estate experience.*
+<p align="center">
+  <a href="https://www.linkedin.com/in/yogeshdumane/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:yogeshdumane20@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Message-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</p>
 
+---
 
+## 📜 License
 
+<p align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+  </a>
+</p>
+
+Licensed under the [MIT License](LICENSE). Feel free to reuse, modify, or repurpose this template—just keep the credit in place.
+
+---
+
+Crafted with passion ⚡ and code, by Yogesh Dumane.
+
+```
+
+---
+```
+### 🎨 Tips for Implementation
+
+- Replace screenshot URLs with your own real project's captures.
+- Add or adjust the GitHub clone link to your repo.
+- If you use different React/Vite/Tailwind versions, update the badges accordingly.
+- Optionally include a demo video or GIF using an embedded link.
+
+Let me know if you’d like help generating screenshots or adding a video embed to the README!
 
