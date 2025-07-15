@@ -11,12 +11,12 @@ const Footer = () => {
       viewport={{ once: true }}
       className="footer bg-[#27563A] text-white mt-10"
     >
-      <div className="px-4 sm:px-6 lg:px-20 py-10 sm:py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="px-4 sm:px-6 lg:px-20 py-10 sm:py-12 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
         {/* Column 1: Logo + Social + Button */}
         <div className="space-y-5">
           <div className="flex items-center gap-2">
-            <img src={assets.logo1} alt="Logo" className="w-24 sm:w-28" />
+            <img src={assets.logo1} alt="Logo" className="w-34 sm:w-28" />
           </div>
 
           <div className="flex gap-3">

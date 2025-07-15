@@ -21,11 +21,11 @@ const Header = () => {
         viewport={{ once: true }}
         className="text-center text-white w-full max-w-4xl"
       >
-        <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-[62px] font-bold pb-4 sm:pb-6 leading-tight">
+        <h2 className="text-4xl sm:text-4xl mt-10 md:mt-0 md:text-5xl lg:text-[62px] font-bold pb-4 sm:pb-6 leading-tight">
           Live Green, Live Luxuriously.
         </h2>
 
-        <p className="text-sm sm:text-base md:text-lg font-medium text-white max-w-2xl mx-auto px-2 sm:px-0">
+        <p className="text-sm sm:text-base md:text-lg md:my-0 my-2 font-medium text-white max-w-2xl mx-auto px-2 sm:px-0">
           Discover the Advantages of Eco-Friendly Homes with Our Real Estate
           Agency.
         </p>

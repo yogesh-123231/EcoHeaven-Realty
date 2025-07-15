@@ -8,8 +8,8 @@ const Benefits = () => {
       initial={{ opacity: 0, x: 150 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1.4, ease: [0.25, 0.1, 0.25, 1] }}
-      viewport={{ once: true, amount: 0.3 }}
-      className="bg-[#f3f4f6] py-12 px-4 sm:px-6 lg:px-20 h-full text-center"
+      viewport={{ once: true, amount: 0.1 }} // reduced amount for mobile
+      className="bg-[#f3f4f6] py-12 px-4 sm:px-6 lg:px-20 min-h-screen text-center" // ensure enough height
     >
       {/* Heading */}
       <h2 className="text-2xl sm:text-3xl font-semibold text-[#08110C] mb-2">
@@ -37,14 +37,14 @@ const Benefits = () => {
           <img
             src={assets.benefit1}
             alt="Low energy"
-            className="h-full w-full object-cover"
+            className="w-full h-48 sm:h-56 object-cover"
           />
         </div>
 
         {/* Card 2 */}
         <div className="bg-white shadow-sm overflow-hidden flex flex-col h-full">
           <div className="p-6 text-left flex-1">
-            <h3 className="text-base font-semibold mt-5 mb-4 text-[#08110C] ">
+            <h3 className="text-base font-semibold mt-5 mb-4 text-[#08110C]">
               Smaller carbon footprint
             </h3>
             <p className="text-sm text-gray-600">
@@ -56,7 +56,7 @@ const Benefits = () => {
           <img
             src={assets.benefit2}
             alt="Carbon footprint"
-            className="h-55 w-full object-cover"
+            className="w-full h-48 sm:h-56 object-cover"
           />
         </div>
 
@@ -64,7 +64,7 @@ const Benefits = () => {
         <div className="bg-white shadow-sm overflow-hidden flex flex-col h-full">
           <div className="p-6 text-left flex-1">
             <h3 className="text-base font-semibold mt-5 mb-4 text-[#08110C]">
-              Indoor
+              Healthier indoor air
             </h3>
             <p className="text-sm text-gray-600">
               Our hybrid ventilation strategy includes both natural and
@@ -74,8 +74,8 @@ const Benefits = () => {
           </div>
           <img
             src={assets.benefit3}
-            alt="Indoor"
-            className="h-55 w-full object-cover"
+            alt="Indoor air"
+            className="w-full h-48 sm:h-56 object-cover"
           />
         </div>
       </div>
