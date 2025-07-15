@@ -11,7 +11,9 @@
 
 
 
-[**🔗 Live Demo**](https://ecoheaven-reality.netlify.app) • Expect seamless scrolling, vibrant animations, and a smooth experience.
+
+
+[**🔗 Live Demo**](https://ecoheaven-reality.netlify.app) 
 
 
 
@@ -56,18 +58,31 @@ EcoHeaven Realty is a sleek, eco-themed real estate landing page built directly 
 ---
 
 ## 📁 Project Structure
-```
 
-/src
-├── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── Features.jsx
-│   ├── ContactForm.jsx
-│   └── Footer.jsx
-├── App.jsx         # Root with scroll handlers
-├── main.jsx        # Entry point
-└── index.css       # Base + Tailwind styles
+
+EcoHeaven-Realty/
+├── public/
+│   └── favicon.ico
+│   └── index.html
+├── src/
+│   ├── assets/              # Images, logos, background visuals
+│   ├── components/          # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── ContactForm.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx              # Main component with all sections combined
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Tailwind directives + custom styles
+├── .gitignore
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
 
 
 
