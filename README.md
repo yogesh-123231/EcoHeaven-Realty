@@ -10,22 +10,33 @@
 </p>
 
 
+---
 
 
+<p align="center" style="margin-top: 40px; margin-bottom: 10px;">
+  <strong>🚀 Check it out live 👇</strong>
+</p>
 
-[**🔗 Live Demo**](https://ecoheaven-reality.netlify.app) 
+<p align="center" style="margin-top: 0;">
+  <a href="https://ecoheaven-reality.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live Demo-EcoHeaven-green?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+  </a>
+</p>
+
+
 
 
 
 ---
+
 
 ## 💡 Overview
 EcoHeaven Realty is a sleek, eco-themed real estate landing page built directly from a **Figma design** crafted by Victor Jimoh. It demonstrates in-depth front-end skills using React, utility-first Tailwind CSS, and polished animations via Framer Motion—all wrapped up in a fast, Vite-powered app deployed on Netlify.
 
+
 ---
 
 ## 🛠 Core Features
-
 
 
 - 🖼️ **Figma-to-Code Precision**  
@@ -57,36 +68,6 @@ EcoHeaven Realty is a sleek, eco-themed real estate landing page built directly 
 
 ---
 
-## 📁 Project Structure
-
-
-EcoHeaven-Realty/
-├── public/
-│   └── favicon.ico
-│   └── index.html
-├── src/
-│   ├── assets/              # Images, logos, background visuals
-│   ├── components/          # Reusable UI components
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Services.jsx
-│   │   ├── ContactForm.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx              # Main component with all sections combined
-│   ├── main.jsx             # React entry point
-│   └── index.css            # Tailwind directives + custom styles
-├── .gitignore
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-
-
-
-
----
 
 ## ⚙ Getting Started
 To run this project locally:
@@ -118,13 +99,17 @@ View it at [http://localhost:5173](http://localhost:5173). To deploy, simply con
 ## 📬 Connect and Collaborate
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/yogeshdumane/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white">
+  <a href="https://www.linkedin.com/in/yogeshdumane/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge">
   </a>
   <a href="mailto:yogeshdumane987@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Message-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/Gmail-Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
+  </a>
+  <a href="https://github.com/yogesh-123231" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
   </a>
 </p>
+
 
 ---
 
@@ -136,7 +121,7 @@ View it at [http://localhost:5173](http://localhost:5173). To deploy, simply con
   </a>
 </p>
 
-Licensed under the [MIT License](LICENSE). Feel free to reuse, modify, or repurpose this template—just keep the credit in place.
+Licensed under the [MIT License](LICENSE). 
 
 
 
